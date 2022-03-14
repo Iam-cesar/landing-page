@@ -1,0 +1,23 @@
+:root {
+  --breakpoint-320: 320px;
+  --breakpoint-425: 425px;
+  --breakpoint-768: 768px;
+  --breakpoint-1366: 1366px;
+
+  --font-family: 'Raleway', sans-serif;
+  --font-size-200: 200;
+  --font-size-300: 300;
+  --font-size-400: 400;
+  
+  --primary-color: #FF2E00df;
+  --secundary-color: #5f5e5e;
+  --button-color-pink: #ee8b7d;
+  --button-color-gray: #626262;
+  --section-background-color: #eeeeee;
+  --background-color-white: #fafafa;
+  --black: #0f0f0f;
+  --font-white: #EEF0EB;
+
+  --primary-opacity: .7;
+  --secundary-opacity: .8;
+}

@@ -1,0 +1,24 @@
+.offers__container {
+  padding: 5rem 1.5rem 0 1.5rem;
+}
+
+.offers__container h2,
+.offers__container p {
+  margin-bottom: 1rem;
+}
+
+.offers__image__card {
+  position: relative;
+}
+
+.offers__image__card img {
+  margin-bottom: 2rem;
+}
+
+.offers__image__card p {
+  bottom: 2rem;
+  color: var(--font-white);
+  font-size: 1.8rem;
+  left: 2rem;
+  position: absolute;
+}

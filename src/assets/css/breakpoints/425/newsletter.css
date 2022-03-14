@@ -1,0 +1,7 @@
+@media screen and (min-width: 425px) {
+  .newsletter__container div form button {
+    width: 40%;
+    min-width: 15rem;
+    max-width: 30rem;
+  }
+}

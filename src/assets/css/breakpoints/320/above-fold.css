@@ -1,0 +1,36 @@
+.above__fold__container {
+  background-color: var(--background-color-white);
+}
+
+.above__fold__container div {
+  padding: 3rem 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.above__fold__container h2 {
+  margin: 0 0 1.5rem 0;
+}
+
+.above__fold__container form {
+  display: flex;
+  font-size: 1.8rem;
+  flex-direction: column;
+}
+
+.above__fold__container form label {
+  padding-bottom: .2rem;
+}
+
+.above__fold__container form input {
+  margin-bottom: .5rem;
+  padding-left: .5rem;
+}
+
+.above__fold__container div button {
+  background-color: var(--button-color-gray);
+  color: var(--font-white);
+  height: 4rem;
+  max-width: 18rem;
+  margin-top: 1rem;
+}

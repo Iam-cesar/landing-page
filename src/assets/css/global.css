@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--section-background-color);
+  max-width: 150rem;
+  margin: 0 auto;
+}
+
+h4,
+h3,
+h2 {
+  font-size: 2rem;
+  font-weight: var(--font-size-400);
+}
+
+p,
+a {
+  font-size: 1.5rem;
+  font-weight: var(--font-size-300);
+}
+
+strong {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+label {
+  font-size: 1.8rem;
+}
+
+input {
+  height: 4rem;
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  background-color: var(--section-background-color);
+}
+
+button {
+  font-size: 1.6rem;
+  height: 4rem;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}

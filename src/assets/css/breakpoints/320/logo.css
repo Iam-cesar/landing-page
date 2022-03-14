@@ -1,0 +1,8 @@
+.nav__logo {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav__search__icon:hover {
+  cursor: pointer;
+}

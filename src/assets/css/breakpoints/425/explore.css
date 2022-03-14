@@ -1,0 +1,7 @@
+@media screen and (min-width:425px) {
+  .explore__card__container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+  }
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width:768px) {
+  .above__fold {
+    background-image: url('../../../images/london.jpg');
+    background-repeat: no-repeat;
+    padding: 6rem 9rem;
+  }
+}

@@ -1,0 +1,49 @@
+.contact__container {
+  margin: 3rem 1.5rem 0;
+}
+
+.contact__container h2 {
+  margin-bottom: 2rem;
+}
+
+.contact__container p {
+  margin-bottom: 2rem;
+}
+
+.contact__info__container div {
+  align-items: center;
+  display: flex;
+  margin-bottom: .5rem;
+}
+
+.contact__info__container p {
+  display: inline;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.contact__info__container img {
+  height: 1.8rem;
+  margin-right: 2rem;
+  width: 1.8rem;
+}
+
+.contact__container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.contact__container form input {
+  height: 5rem;
+  padding-left: 1rem;
+}
+
+.contact__container form button {
+  background-color: #010101;
+  color: var(--font-white);
+  height: 5rem;
+  max-width: 60%;
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width: 425px) {
+  .contact__container div form button {
+    width: 50%;
+    min-width: 15rem;
+    max-width: 40rem;
+  }
+}

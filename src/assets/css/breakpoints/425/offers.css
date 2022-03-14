@@ -1,0 +1,40 @@
+@media screen and (min-width: 430px) {
+  .offers__image__container {
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "cinque-terre cinque-terre new-york san-francisco"
+                         "cinque-terre cinque-terre pisa paris";
+  }
+
+  .offers__image__container div img {
+    margin-bottom: 0;
+  }
+
+  .offers__image__container div p {
+    font-size: 1.4rem;
+    bottom: 1rem;
+  }
+
+  .offers__image__container div:nth-child(1) {
+    grid-area: cinque-terre;
+  }
+
+  .offers__image__container div:nth-child(2) {
+    grid-area: new-york;
+  }
+
+  .offers__image__container div:nth-child(3) {
+    grid-area: san-francisco;
+  }
+
+  .offers__image__container div:nth-child(4) {
+    grid-area: pisa;
+  }
+
+  .offers__image__container div:nth-child(5) {
+    grid-area: paris;
+  }
+
+}

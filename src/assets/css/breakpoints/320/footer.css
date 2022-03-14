@@ -1,0 +1,22 @@
+footer div {
+  display: grid;
+  gap: 1.5rem;
+  margin: 3rem 0;
+  opacity: var(--primary-opacity);
+  place-items: center;
+}
+
+.find__container div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.find__container div img {
+  height: 2rem;
+  width: 2rem;
+}
+
+footer a {
+  color: #000;
+}
